@@ -1,7 +1,14 @@
+import Players from "./Players";
+import Footer from "./components/Footer";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <Navigation></Navigation>
+      <Players></Players>
+      <Footer></Footer>
+    </div>
   );
 }
 
